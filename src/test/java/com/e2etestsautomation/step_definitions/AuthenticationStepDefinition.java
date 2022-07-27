@@ -24,14 +24,11 @@ public class AuthenticationStepDefinition {
 		this.authenticationPage = new AuthenticationPage();
 
 	}
-
-
-
-
-
-	@Given("Je me connecte a  l'application orangeHRM")
-	public void jeMeConnecteALApplicationOrangeHRM() {
-		Setup.driver.get("https://opensource-demo.orangehrmlive.com/");
+	/*login*/
+	
+@Given("Je me connecte a  l application orangeHRM")
+public void jeMeConnecteALApplicationOrangeHRM() {
+		//Setup.driver.get("https://opensource-demo.orangehrmlive.com/");
 		authenticationPage.goToURL();
 	}
 

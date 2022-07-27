@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 	 features = {"src/spec/features"},
 	 plugin = {"pretty", "html:target/cucumber-report.html"}, 
-	 tags = (" @deconnexion"),
+	 tags = (" @outline"),
 	 monochrome = true ,
 	 snippets = CAMELCASE
 )
